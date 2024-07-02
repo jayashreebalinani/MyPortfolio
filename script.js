@@ -17,4 +17,3 @@ var typed = new Typed(".auto-type",{
   backSpeed:150,
   loop:true
 })
-
