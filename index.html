@@ -1018,14 +1018,14 @@
       <article class="card c-3 glass glow tilt reveal" data-tilt="6">
         <div class="card-top">
           <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg></div>
-          <span class="card-org">Personal project</span>
+          <span class="card-org">Personal project · Live</span>
         </div>
-        <h3>RAG Assistant</h3>
-        <p>Document Q&amp;A assistant that answers questions from company PDFs with source citations to reduce hallucinations.</p>
-        <div class="job-stack"><span class="pill cy">Python</span><span class="pill cy">FastAPI</span><span class="pill">ChromaDB</span><span class="pill">Groq</span><span class="pill">Next.js</span></div>
+        <h3>RAG Assistant (HR Policy Q&amp;A)</h3>
+        <p>An AI assistant that answers employee questions from a company HR policy PDF, with citations. Ingests and chunks the PDF, stores embeddings in ChromaDB, retrieves the most relevant sections, and generates grounded answers with an LLM via Groq. A relevance threshold refuses off-topic questions without calling the LLM. Evaluated with a 16-question test set and an LLM judge (75% baseline, with failure analysis). Next.js chat UI streams answers word by word with source cards.</p>
+        <div class="job-stack"><span class="pill cy">Python</span><span class="pill cy">FastAPI</span><span class="pill">ChromaDB</span><span class="pill">Groq (gpt-oss-120b)</span><span class="pill">Next.js</span><span class="pill">Render</span><span class="pill">Vercel</span></div>
         <div class="project-actions">
-          <!-- TODO: add Live Demo and repo links once the RAG Assistant is published -->
-          <a class="btn btn-ghost magnetic" href="https://github.com/jayashreebalinani" target="_blank" rel="noopener" aria-label="GitHub profile (opens in new tab)">GitHub</a>
+          <a class="btn btn-primary magnetic" href="https://rag-assistant-mu-woad.vercel.app/" target="_blank" rel="noopener" data-cursor="Live" aria-label="RAG Assistant live demo (opens in new tab)">Live Demo</a>
+          <a class="btn btn-ghost magnetic" href="https://github.com/jayashreebalinani/rag-assistant" target="_blank" rel="noopener" aria-label="RAG Assistant source on GitHub (opens in new tab)">GitHub</a>
         </div>
       </article>
 
@@ -1035,8 +1035,8 @@
           <span class="card-org">Personal project · Live</span>
         </div>
         <h3>News Chat Bot</h3>
-        <p>Real-time news assistant that fetches live headlines and uses an LLM to summarise stories and answer follow-up questions.</p>
-        <div class="job-stack"><span class="pill cy">Python</span><span class="pill cy">FastAPI</span><span class="pill">Groq</span><span class="pill">GNews API</span><span class="pill">Next.js</span><span class="pill">Vercel</span><span class="pill">Render</span></div>
+        <p>A real-time news chatbot that answers questions about current events. The FastAPI backend fetches live articles from the GNews API and passes them to an LLM on Groq for concise, up-to-date answers, alongside a general chat endpoint. The React frontend provides a chat interface.</p>
+        <div class="job-stack"><span class="pill cy">Python</span><span class="pill cy">FastAPI</span><span class="pill">Groq (gpt-oss-120b)</span><span class="pill">GNews API</span><span class="pill">React (Vite)</span><span class="pill">Render</span><span class="pill">Vercel</span></div>
         <div class="project-actions">
           <a class="btn btn-primary magnetic" href="https://news-chatbot-frontend-nine.vercel.app/" target="_blank" rel="noopener" data-cursor="Live" aria-label="News Chat Bot live demo (opens in new tab)">Live Demo</a>
           <a class="btn btn-ghost magnetic" href="https://github.com/jayashreebalinani/News-Chatbot" target="_blank" rel="noopener" aria-label="News Chat Bot source on GitHub (opens in new tab)">GitHub</a>
@@ -1081,7 +1081,7 @@
     <div class="skills-grid">
       <div class="skill wide glass glow reveal">
         <div class="skill-head"><span class="num">01</span><h4>AI &amp; LLM</h4></div>
-        <div class="pills"><span class="pill cy">Claude API (Sonnet)</span><span class="pill">OpenAI GPT</span><span class="pill">Groq</span><span class="pill">Large Language Models (LLM)</span><span class="pill cy">RAG (Retrieval-Augmented Generation)</span><span class="pill">ChromaDB</span><span class="pill">Embeddings &amp; Semantic Search</span><span class="pill cy">MCP (Model Context Protocol)</span><span class="pill">LLM Query Routing</span><span class="pill">Prompt Engineering</span><span class="pill">AI Copilot / Chatbot Development</span><span class="pill">Workflow Automation</span><span class="pill">VAPI</span></div>
+        <div class="pills"><span class="pill cy">Claude API (Sonnet)</span><span class="pill">OpenAI GPT</span><span class="pill">Groq</span><span class="pill">Large Language Models (LLM)</span><span class="pill">LLM APIs</span><span class="pill cy">RAG (Retrieval-Augmented Generation)</span><span class="pill">ChromaDB</span><span class="pill">Embeddings &amp; Semantic Search</span><span class="pill cy">MCP (Model Context Protocol)</span><span class="pill">LLM Query Routing</span><span class="pill">Prompt Engineering</span><span class="pill">AI Copilot / Chatbot Development</span><span class="pill">Workflow Automation</span><span class="pill">VAPI</span></div>
       </div>
       <div class="skill glass glow tilt reveal" data-tilt="5">
         <div class="skill-head"><span class="num">02</span><h4>Frontend</h4></div>
